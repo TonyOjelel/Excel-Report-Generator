@@ -15,7 +15,7 @@ event, values = window.read()
 query = values['textbox']
 
 # SQL Connection/Query
-cnx = mysql.connector.connect(user = user1,
+cnx = mysql.connector.connect(user = user1, password,
                               host = host1,
                               database = database1)
 
